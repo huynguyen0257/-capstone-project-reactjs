@@ -1,0 +1,48 @@
+.room__box {
+  background: #9cd4f7;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  width: 90%;
+  height: 100px;
+  transition: 0.3s;
+  border-radius: 5px;
+  box-shadow: 1px 6px 13px 1px #9cd4f7;
+  cursor: pointer;
+}
+
+.room__box.empty {
+  background: #cfeafa;
+}
+
+.room__box:hover {
+  box-shadow: 0 0 white;
+}
+
+.room__box.active:hover{
+  box-shadow: 0 0 white;
+}
+
+.room__box.active {
+  background: #c1f5c6;
+  box-shadow: 1px 6px 13px 1px #c1f5c6;
+
+}
+.building__box {
+  background: #9cd4f7;
+  padding: 16px;
+  text-align: center;
+  transition: 0.3s;
+  border-radius: 5px;
+  box-shadow: 1px 6px 13px 1px #9cd4f7;
+}
+.building__box:hover {
+  box-shadow: 0 0 white;
+}
+
+.building__box.active {
+  background: #c1f5c6;
+  box-shadow: 1px 6px 13px 1px #c1f5c6;
+  font-weight: bold;
+
+}

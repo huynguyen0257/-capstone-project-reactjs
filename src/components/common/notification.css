@@ -1,0 +1,23 @@
+.notification__card__read .ant-card {
+  background-color: whitesmoke;
+}
+
+.notification__card.notification__card__read .ant-row.ant-row {
+  background: whitesmoke;
+}
+
+.notification__card .ant-row.ant-row {
+  background: white;
+}
+
+.notification__card .ant-card {
+  border-top: 1px dashed #A9BCD0;
+  cursor: pointer;
+}
+
+.mark_all_read {
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 10px;
+  cursor: pointer;
+}

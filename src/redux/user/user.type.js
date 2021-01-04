@@ -1,0 +1,2 @@
+export const SET_USERS =  'SET_USERS'
+export const SET_USER_REGISTER_FACE =  'SET_USER_REGISTER_FACE'

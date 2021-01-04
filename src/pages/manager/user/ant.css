@@ -1,0 +1,65 @@
+.avatar-uploader > .ant-upload {
+    width: 256px;
+    height: 256px;
+  }
+
+.image__enhance {
+  width: 80%;
+  margin-top: 20px;
+  transition:0.2s;
+}
+
+.image__enhance_delete {
+  color: #ff4d4e!important;
+  position: absolute;
+  font-size: 30px;
+  z-index: 1;
+  right: 10px;
+  top: 10px;
+  background: #ffffffa8;
+  border-radius: 15px;
+  cursor: pointer;
+  opacity: 0;
+  transition: 0.4s;
+  transform: rotateZ(180deg);
+}
+
+.image__enhance_group:hover .image__enhance {
+  /* transform: scale(0.8); */
+  opacity: 0.8;
+}
+
+.image__enhance_group:hover .image__enhance_delete {
+  /* transform: scale(0.8); */
+  opacity: 1;
+  transform: rotateZ(0deg);
+
+}
+
+.Blink {
+  font-size: 20px;
+  animation: blinker 1s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+}
+
+@keyframes blinker {  
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+.user__card {
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0px
+}
+.user__card .content{
+  font-weight: bold;
+}
+
+.user__card .ant-col {
+  padding: 5px 10px;
+}
+
+.user__card .ant-col-16 {
+  font-weight: bold;
+}

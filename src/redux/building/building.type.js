@@ -1,0 +1,3 @@
+export const SET_BUILDINGS = 'SET_BUILDINGS';
+
+export const SET_BUILDING = 'SET_BUILDING'

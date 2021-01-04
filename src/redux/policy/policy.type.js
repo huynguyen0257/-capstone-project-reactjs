@@ -1,0 +1,2 @@
+export const SET_POLICY_LEVEL = 'SET_POLICY_LEVEL'
+export const SET_POLICY = 'SET_POLICY'

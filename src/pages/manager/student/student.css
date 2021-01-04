@@ -1,0 +1,78 @@
+.ant-modal.full__size{
+    width: 90%!important;
+}
+
+tr.ant-table-row.error td {
+    border-bottom: 1px solid rgb(245, 90, 90);
+}
+
+
+
+
+
+.error .validate {
+    color: rgb(245, 90, 90);
+    font-weight: bold;
+}
+.error.code .code {
+    color: rgb(245, 90, 90);
+    font-weight: bold;
+}
+.error.fullname .fullname {
+    color: rgb(245, 90, 90);
+    font-weight: bold;
+}
+.error.email .email {
+    color: rgb(245, 90, 90);
+    font-weight: bold;
+}
+.error.room .room {
+    color: rgb(245, 90, 90);
+    font-weight: bold;
+}
+.error.university .university {
+    color: rgb(245, 90, 90);
+    font-weight: bold;
+}
+.error.gender .gender {
+    color: rgb(245, 90, 90);
+    font-weight: bold;
+}
+.error.birthdate .birthdate {
+    color: rgb(245, 90, 90);
+    font-weight: bold;
+}
+
+.error.dayin .dayin {
+    color: rgb(245, 90, 90);
+    font-weight: bold;
+}
+.error.phone .phone {
+    color: rgb(245, 90, 90);
+    font-weight: bold;
+}
+.error.dayout .dayout {
+    color: rgb(245, 90, 90);
+    font-weight: bold;
+}
+
+.error.rolename .rolename {
+    color: rgb(245, 90, 90);
+    font-weight: bold;
+}
+.error__message{
+    color: rgb(245, 90, 90);
+    font-weight: bold;
+    padding: 0px 5px;
+}
+.error.universityname .university {
+    color: rgb(245, 90, 90);
+    font-weight: bold;
+}
+
+.validate__message{
+    color: rgb(93, 160, 99);
+    font-weight: bold;
+    padding: 0px 5px;
+
+}

@@ -1,0 +1,1 @@
+export const SET_RELATIVES = 'SET_RELATIVES';
